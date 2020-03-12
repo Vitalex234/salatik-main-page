@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>My template</title>
+    <meta name="description" content="My template">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- style -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.3.0/css/font-awesome.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center flex-nowrap">
+                    <div class="mobile-btn"><span></span><span></span><span></span></div>
+                    <div class="col-md-1 header__logo">
+                        <img src="img/logo.png" alt="" class="header__img">
+                    </div>
+                    <div class="col-xl-4 col-md-3  header__search">
+                        <form action=""><input type="text" name="search" id="" placeholder="Поиск рецептов" class="header__input">
+                        <i class="fa fa-search header__icon"></i>
+                        </form>
+                    </div>
+                    <ul class="col-md-6 col-xl-5 header__topmenu topmenu d-flex">
+                        <li class="topmenu__item"><a href="" class="topmenu__link">Новости</a></li>
+                        <li class="topmenu__item"><a href="" class="topmenu__link">О блоге</a></li>
+                        <li class="topmenu__item"><a href="" class="topmenu__link">Реклама</a></li>
+                        <li class="topmenu__item"><a href="" class="topmenu__link">Контакты</a></li>
+                        <li class="topmenu__item"><a href="" class="topmenu__link">Разное</a></li>
+                    </ul>
+                    <div class="col-xl-2 col-md-2 header__user">
+                        <a href="" class="header__signin">Вход</a><a href="" class="header__register">Регистрация</a>                        
+                    </div>
+                    <i class="fa fa-search header__search-icon"></i>
+                </div>
+            </div>
+        </header>
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav__list d-flex justify-content-md-between justify-content-xl-start flex-nowrap">
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Салаты  <i class="fa fa-chevron-down"></i></a>
+                        <ul class="nav__sublist d-flex flex-column flex-wrap">
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Мясные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Овощные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Рыбные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Морепродукты</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Фруктовые</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Ассорти</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Сладкие</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Постные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Птица</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="" class="nav__link">Бутерброды  <i class="fa fa-chevron-down"></i></a>
+                        <ul class="nav__sublist d-flex flex-column flex-wrap" >
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Овощи и зелень</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Грибные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">С сыром</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Рыба</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Морепродукты</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">С колбасой</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Мясные</a></li>
+                            <li class="nav__subitem"><a href="" class="nav__sublink">Двойные (сэндвичи)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a href="" class="nav__link">Канапе</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Гренки</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Тосты</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Тартинки</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Закуски</a></li>
+                    <li class="nav__item"><a href="" class="nav__link">Заправки</a></li>
+                </ul>
+            </div>
+            <div class="to-top-button"></div>
+        </nav>
+  
+        <main class="page">
+            <section class="slider">  
+                <div class="slider__title">
+                    <h1>Салаты</h1>
+                    <h2>на все случаи жизни</h2>     
+                </div>
+                   
+                <!-- <ul id="light-slider">
+                          <li>
+                              <img src="img/slider1.jpg" alt="">
+                          </li>
+                          <li>
+                              <img src="img/slider2.jpg" alt="">
+                          </li>
+                      </ul> -->  
+                <div class="slider__bgimage" style="background-image: url(img/slider2.jpg);"></div>    
+            </section>
+            <section class="overview">
+                <div class="container">
+                    <h3 class="overview__title">Смотрите в этом блоге</h3>
+                    <div class="row">
+                        <div class="col-6 col-md-3 overview__item">
+                            <div class="overview__round">
+                                <img src="img/ov-1.svg" alt="" class="overview__img">
+                            </div>
+                             <h4 class="overview__text">Лучшие новогодние салаты</h4>
+                        </div>
+                        <div class="col-6 col-md-3"><div class="overview__round">
+                            <img src="img/ov2.svg" alt="" class="overview__img"></div>
+                            <h4 class="overview__text">Салаты для похудения</h4>
+                        </div>
+                        <div class="col-6 col-md-3"><div class="overview__round">
+                            <img src="img/ov3.svg" alt="" class="overview__img"></div>
+                            <h4 class="overview__text">Кулинарные секреты</h4>
+                        </div>
+                        <div class="col-6 col-md-3"><div class="overview__round">
+                            <img src="img/ov4.svg" alt="" class="overview__img"></div>
+                            <h4 class="overview__text">И много других полезных рецептов!</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recipe-list">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                <h5 class="recipe__title"><a href="">Салат с руколлой</a></h5>
+                                <p class="recipe__text">Наслаждайся вкусным салатом каждый день</p>
+                                <img src="img/recipe1.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                 <h5 class="recipe__title"><a href="">Бутерброд с сыром</a></h5>
+                                <p class="recipe__text">Приготовь себе и близким интересный перекус</p>
+                                <img src="img/recipe2.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                <h5 class="recipe__title"><a href="">Салат с руколлой</a></h5>
+                                <p class="recipe__text">Наслаждайся вкусным салатом каждый день</p>
+                                <img src="img/recipe1.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                 <h5 class="recipe__title"><a href="">Бутерброд с сыром</a></h5>
+                                <p class="recipe__text">Приготовь себе и близким интересный перекус</p>
+                                <img src="img/recipe2.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                <h5 class="recipe__title"><a href="">Салат с руколлой</a></h5>
+                                <p class="recipe__text">Наслаждайся вкусным салатом каждый день</p>
+                                <img src="img/recipe1.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                 <h5 class="recipe__title"><a href="">Бутерброд с сыром</a></h5>
+                                <p class="recipe__text">Приготовь себе и близким интересный перекус</p>
+                                <img src="img/recipe2.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                <h5 class="recipe__title"><a href="">Салат с руколлой</a></h5>
+                                <p class="recipe__text">Наслаждайся вкусным салатом каждый день</p>
+                                <img src="img/recipe1.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                 <h5 class="recipe__title"><a href="">Бутерброд с сыром</a></h5>
+                                <p class="recipe__text">Приготовь себе и близким интересный перекус</p>
+                                <img src="img/recipe2.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="recipe">
+                                <h5 class="recipe__title"><a href="">Салат с руколлой</a></h5>
+                                <p class="recipe__text">Наслаждайся вкусным салатом каждый день</p>
+                                <img src="img/recipe1.jpg" alt="" class="recipe__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="accordion">
+                <div class="container">
+                    <img src="img/bigimage.jpg" alt="" class="bigimage__img">
+                    <div id="accordion" class="accordion__inner">
+
+                      <div class="accordionButton btn1"><h3>Фрукты<span>+</span></h3></div>
+                      <div class="accordionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minima, eos alias voluptatum, distinctio voluptate!</p>
+                      </div>
+
+                      <div class="accordionButton btn2"><h3><span>+</span>Травы</h3></div>
+                      <div class="accordionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minima, eos alias voluptatum, distinctio voluptate!</p>
+                      </div>
+
+                      <div class="accordionButton btn3"><h3>Мясо<span>+</span></h3></div>
+                      <div class="accordionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minima, eos alias voluptatum, distinctio voluptate!</p>
+                      </div>
+                      <div class="accordionButton btn4"><h3><span>+</span>Рыба</h3></div>
+                      <div class="accordionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minima, eos alias voluptatum, distinctio voluptate!</p>
+                      </div>
+                      <div class="accordionButton btn5"><h3>Овощи<span>+</span></h3></div>
+                      <div class="accordionContent">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minima, eos alias voluptatum, distinctio voluptate!</p>
+                      </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="author">
+                <div class="container">
+                    <h3 class="author__title author__title--first">Об авторе</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-3"><img src="img/author.jpg" alt="" class="author__img"></div>
+                        <div class="col-12 col-md-9">
+                            <h3 class="author__title">Об авторе</h3>
+                            <p class="author__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia eaque maiores sed placeat quibusdam, dignissimos, culpa ratione eius doloremque rem obcaecati sequi in, harum optio.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="last-recipes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <div class="recipes__item">
+                                <a href=""><img src="img/last-recipe.jpg" alt="" class="recipes__img"></a>
+                                <p class="recipes__text">Описание</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="recipes__item">
+                                <a href=""><img src="img/last-recipe.jpg" alt="" class="recipes__img"></a>
+                                <p class="recipes__text">Описание</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="recipes__item">
+                               <a href=""><img src="img/last-recipe.jpg" alt="" class="recipes__img"></a>
+                                <p class="recipes__text">Описание</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <div class="recipes__item">
+                               <a href=""><img src="img/last-recipe.jpg" alt="" class="recipes__img"></a>
+                                <p class="recipes__text">Описание</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>     
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row flex-md-nowrap">
+                        <div class="col-12 col-md-3 order-md-1 order-2">
+                            <h6 class="footer__title">SALATIK</h6>
+                            <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed perspiciatis magni ab ea fuga non aliquid dolorem id obcaecati, fugiat cupiditate praesentium quaerat, quidem eveniet.</p>
+                        </div>
+                        <div class="col-12 col-md-4 subscribe order-md-2 order-1">
+                            <p class="subscribe__title">Подписывайтесь на обновления и
+                            получайте новые рецепты каждый день!</p>
+                            <form action="">
+                                <input type="email" name="email" id="" placeholder="Введите ваш e-mail" class="subscribe__email">
+                                <button type="submit" class="subscribe__btn">Подписаться</button>
+                                <input type="checkbox" name="personal-data" id="personal-data" value="true" class="subscribe__checkbox">
+                                <label for="personal-data" class="subscribe__data">Согласие на обработку персональных данных</label>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-5 order-3">
+                            <ul class="footer-menu d-flex flex-column flex-md-row justify-content-md-between">
+                                <li class="footer-menu__item"><a href="" class="footer-menu__link">Главная</a></li>
+                                <li class="footer-menu__item"><a href="" class="footer-menu__link">Рецепты</a></li>
+                                <li class="footer-menu__item"><a href="" class="footer-menu__link">О блоге</a></li>
+                                <li class="footer-menu__item"><a href="" class="footer-menu__link">Реклама</a></li>
+                                <li class="footer-menu__item"><a href="" class="footer-menu__link">Контакты</a></li>
+                            </ul>
+                            <p class="footer-soc__text">Мы в социальных сетях</p>
+                            <ul class="socials d-flex justify-content-between">
+                                <li class="social__item"><a href="" class="social__link"><img src="img/vk.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/facebook.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/instagram.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/google plus.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/whatsapp.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/viber.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/telegram.svg" alt="" class="social__img"></a></li>
+                                <li class="social__item"><a href="" class="social__link"><img src="img/odnoklassniki.svg" alt="" class="social__img"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <p class="col copyright">2019 SALATIK - All Rights Reserved </p>
+                        <div class="col-1 counter d-none d-md-block"></div>
+                        <div class="col-1 counter d-none d-md-block"></div>
+                        <div class="col-1 counter d-none d-md-block"></div>
+                        <div class="col-1 counter d-none d-md-block"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/accordiom.min.js"></script>
+<script src="js/script.js"></script>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+
+</body>
+</html>
